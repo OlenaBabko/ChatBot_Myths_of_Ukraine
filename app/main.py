@@ -37,16 +37,6 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 
-# # COMMANDS
-# async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-#     await update.message.reply_text("Good evening my friend. I am Old Molfar. I will tell your horoscope according to the ancient beliefs of Ukrainians")
-#
-# async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-#     await update.message.reply_text("I am Old Molfar. Type me to start conversation")
-#
-# async def birthday_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-#     await update.message.reply_text("put your birth date")
-
 
 
 
