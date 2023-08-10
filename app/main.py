@@ -2,24 +2,10 @@ import logging
 import os
 import sys
 
-# Get the current directory
-#current_directory = os.path.dirname(os.path.abspath(__file__))
-# Add the current directory to the Python path
-#sys.path.append(current_directory)
+
 
 from config.env import get_settings
 
-#from telegram import __version__ as TG_VER
-#try:
-#    from telegram import __version_info__
-#except ImportError:
-#    __version_info__ = (0, 0, 0, 0, 0)  # type: ignore[assignment]
-#if __version_info__ < (20, 0, 0, "alpha", 1):
-#    raise RuntimeError(
-#        f"This example is not compatible with your current PTB version {TG_VER}. To view the "
-#        f"{TG_VER} version of this example, "
-#        f"visit https://docs.python-telegram-bot.org/en/v{TG_VER}/examples.html"
-#    )
 
 from telegram import ForceReply, Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters, CallbackContext
